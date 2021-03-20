@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.card {
+  border-radius: 20px;
+  background-color: lightseagreen;
+  height: 250px;
+  width: 420px;
+  box-shadow: 12px 12px 40px 0.5px rgba(128, 128, 128, 0.459);
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bank-name {
+  top: 5%;
+  right: 5%;
+  position: absolute;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+.account-num {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.valid-thru {
+  text-align: center;
+  position: relative;
+  top: 44%;
+  left: 35%;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 0.7em;
+}
+
+.cardholder {
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 500;
+  font-size: 1.3em;
+  position: relative;
+  top: 50%;
+  left: 30px;
+  display: block;
+}
+
+.nums {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  top: 40%;
+  left: 75px;
+}
+
+.exp-date {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  display: inline-block;
+  top: 42.5%;
+  left: 40%;
+  position: relative;
 }
